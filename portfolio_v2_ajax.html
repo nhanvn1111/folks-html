@@ -1,0 +1,171 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Folks HTML</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Montserrat'
+	rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/color/default.css">
+
+<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+	<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<div id="wrap">
+		<nav id="primary-navigation" class="navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#navbar">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Folks</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<!--/.navbar-collapse -->
+			</div>
+		</nav>
+
+		<div id="main-content" class="main-content">
+
+			<section class="portfolio">
+				<div class="container">
+					<h2 class="sectionTitle">Portfolio</h2>
+				</div>
+				<div id="filters">
+						<div class="container">
+						
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed"
+									data-toggle="collapse" data-target="#navbar-filters">
+									<span class="button-icon">
+										<span class="icon-bar"></span> 
+										<span class="icon-bar"></span> 
+										<span class="icon-bar"></span>
+									</span>
+									<span class="navbar-title">Filters</span>
+								</button>
+								
+							</div>
+							<div id="navbar-filters" class="navbar-collapse collapse">
+								<ul class="nav filters">
+									<li class="active"><button data-filter="*" type="button">ALl
+											types</button></li>
+									<li><button data-filter=".webDesign" type="button">Web
+											Design</button></li>
+									<li><button data-filter=".uiUx" type="button">UI/UX</button></li>
+									<li><button data-filter=".branding" type="button">Branding</button></li>
+									<li><button data-filter=".tllustration" type="button">Illustration</button></li>
+									<li><button data-filter=".photography" type="button">Photography</button></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 photography uiUx branding">
+							<article class="portfolio-post">
+								<figure>
+									<a href="#portfolioModal" data-src="images/works/work-2.jpg"  title="Luxury Villa" data-toggle="modal">
+										<img alt="" src="images/works/work-2.jpg">
+									</a>
+								</figure>
+							</article>
+						</div>
+						<div class="col-sm-4 uiUx photography">
+							<article class="portfolio-post">
+								<figure>
+									<a href="#portfolioModal" data-src="images/works/work-3.jpg"  title="Man Opera" data-toggle="modal">
+										<img alt="" src="images/works/work-3.jpg">
+									</a>
+								</figure>
+							</article>
+						</div>
+						<div class="col-sm-4 webDesign branding photography">
+							<article class="portfolio-post">
+								<figure>
+									<a href="#portfolioModal" data-src="images/works/work-10.jpg" title="Maxx Fitness" data-toggle="modal">
+										<img alt="" src="images/works/work-10.jpg">
+									</a>
+								</figure>
+							</article>
+						</div>
+						<div class="col-sm-8 webDesign tllustration">
+							<article class="portfolio-post">
+								<figure>
+									<a href="#portfolioModal" data-src="images/works/work-11.jpg" title="Optimus" data-toggle="modal">
+										<img alt="" src="images/works/work-11.jpg">
+									</a>
+								</figure>
+							</article>
+						</div>
+						<div class="col-sm-4 webDesign tllustration">
+							<article class="portfolio-post">
+								<figure>
+									<a href="#portfolioModal" data-src="images/works/work-12.jpg" title="Optimus" data-toggle="modal">
+										<img alt="" src="images/works/work-12.jpg">
+									</a>
+								</figure>
+							</article>
+						</div>
+					</div>
+					<div class="readMore dark">
+						<a href="#" class="loadMore">Load more <span>&darr;</span></a>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<footer>
+			<div class="container">
+				<p class="pull-left">
+					<strong>Folks Theme</strong> &copy; 2015. ALL RIGHTS RESERVED.
+				</p>
+				<div id="backTop" class="readMore pull-right">
+					<a href="#">back to top <span>&uarr;</span></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="assets/js/vendor/classie.js"></script>
+	<script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+	<script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+	<script src="assets/js/vendor/jquery.jribbble-1.0.1.ugly.js"></script>
+	<script src="assets/js/vendor/instafeed.min.js"></script>
+	<script src="assets/js/vendor/jquery.waypoints.min.js"></script>
+	<script src="assets/js/sticky.js"></script>
+	<script src="assets/js/circle-progress.js"></script>
+	
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+body,
+section.testimonials a,
+section.awards figcaption,
+a.authorName,
+section.visitUs i.fa,
+section.single .authorName,
+section.single .meta-nav a,
+.home_v6 footer .social a{
+	color: #5c5c68;
+}
+h1,h2,h3,h4,h5,h6,
+.sectionTitle,
+#primary-navigation .navbar-brand,
+#logo a,
+#primary-navigation .navbar-nav > li > a,
+.readMore a,
+.readMore button,
+a,
+section.testimonials,
+section.feed .feedTitle,
+section .carousel .carousel-control,
+strong,
+.pagination .page-numbers,
+.pagination .prev,
+.pagination .next,
+section.contact_v2 .sectionTitle,
+section.contact.contact_v2,
+.home_v7 section.skills h5,
+.home_v3 section.portfolio .workTitle a,
+.home_v3 .navbar-toggle,
+section.portfolio .loading,
+body.loadpage:after{
+	color: #030320;
+}
+section.ourVision aside,
+section.contact,
+section.visitUs address,
+.home_v5 section.testimonials a{
+	color: #acacb4;
+}
+section.whyTCUs aside,
+section.journal .entry-meta,
+section.journal .entry-meta a,
+section.services aside,
+section.skills .circle strong,
+section.single .entry-meta,
+section.single .entry-meta .cat-links a{
+	color: #a1a1b5;
+}
+section.services h5 i,
+#wrap a:hover,
+.readMore button:hover{
+	color: #ff391f;
+}
+section.visitUs,
+.home_v1 section.skills,
+.home_v1 section.ourVision,
+.home_v1 section.awards,
+.home_v1 section.contact,
+.home_v2 section.journal,
+.home_v7 section.ourVision,
+.home_v5 section.testimonials,
+
+.navbar-nav > li > a::after,
+.readMore.dark a,
+.readMore.dark button,
+.navbar-toggle .icon-bar,
+#filters,
+#portfolioModal button.close span,
+.hvr-rectangle-out:before,
+section.journal_v2 .post-blockquote .entry,
+.home_v3 .portfolio article:nth-child(even),
+.navbar-toggle .icon-bar,
+#cbp-spmenu-s2,
+.post-gallery .carousel .carousel-control,
+section.feed .carousel .carousel-control{
+	background-color: #030320;
+}
+#portfolioModal .modal-header{
+	background-color: hsla(240, 83%, 7%, 0.3);
+}
+.home_v6 #primary-navigation:after{
+	background-color: #eaeaec;
+}
+section.testimonials,
+section.feed .feedTitle,
+.home_v5 section.portfolio,
+.home_v7 section.portfolio,
+.home_v7 section.portfolio_v3 figure::after, 
+.home_v7 section.portfolio_v3 figure::before,
+.home_v7 section.portfolio_v3 figure a::after, 
+.home_v7 section.portfolio_v3 figure a::before,
+.home_v3 .portfolio,
+section.single .meta-nav a,
+.home_v2 section.infoUs,
+.journal_v2 .post,
+section.portfolio .loading,
+body.loadpage:before{
+	background-color: #f5f5f5;
+}
+#filters li button:AFTER,
+.navbar-toggle:hover .icon-bar,
+#filters .navbar-toggle:hover .icon-bar{
+	background-color: #ff391f;
+}
+#primary-navigation .navbar-inner,
+hr,
+section.portfolio .row > [class^="col-"],
+section.journal .authorName,
+section.contact .field input,
+section.contact .field textarea,
+.navbar-header,
+section.portfolio,
+.journal_v1 article,
+section.portfolio_v3 .portfolio-innner,
+section.journal .journal-inner,
+section.feed,
+section,
+section.journal .carousel,
+.navbar-nav > li > a,
+section.single .authorName,
+.entry-comment form .field,
+section.single .entry-content,
+section.list-demo .list-demo-inner,
+section.list-demo .row > [class^="col-"]{
+	border-color: #eaeaec;
+}
+.home_v7 section.portfolio_v3 figure a::before{
+	 border-color: #f5f5f5 #f5f5f5 transparent;
+}
+.home_v7 section.portfolio_v3 figure a::after{
+	 border-color: transparent #f5f5f5 #f5f5f5;
+}
+
+section.whyTCUs aside .list-style,
+.home_v2 section.whyTCUs{
+	border-color: #e1e1e1;
+}
+#primary-navigation.navbarBorder .navbar-inner{
+	border-color: #030320;
+}
+.cbp-spmenu li {
+	border-color: #292941;
+}
+section.single .entry-meta,
+section.single .meta-nav,
+section.single .meta-nav a.next{
+	border-color: #dcdcde;
+}
+
+@media (min-width: 768px) {
+	.home_v6 .navbar-nav > li > a:hover,
+	.home_v6 .navbar-nav > li > a:focus,
+	.home_v6 .navbar-nav > li.active > a{
+		background-color: #030320;
+	}
+}
